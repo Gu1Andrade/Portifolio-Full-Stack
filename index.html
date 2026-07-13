@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Guilherme Andrade Alves, desenvolvedor Full Stack em formação.">
+  <meta name="theme-color" content="#080b16">
+  <title>Guilherme Andrade | Desenvolvedor Full Stack</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="background" aria-hidden="true">
+    <span class="background__orb background__orb--one"></span>
+    <span class="background__orb background__orb--two"></span>
+    <span class="background__grid"></span>
+  </div>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">
+        <span class="brand__mark">GA</span>
+        <span class="brand__text">Guilherme Andrade</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="menu-principal">
+        <li><a class="nav-link is-active" href="#inicio">Início</a></li>
+        <li><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section container" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__content reveal">
+        <div class="status-badge">
+          <span class="status-badge__dot" aria-hidden="true"></span>
+          Disponível para oportunidades
+        </div>
+
+        <p class="eyebrow">Olá, eu sou</p>
+        <h1 id="hero-title">Guilherme Andrade Alves</h1>
+        <p class="hero__role">Desenvolvedor <span>Full Stack</span></p>
+        <p class="hero__description">
+          Desenvolvo experiências web responsivas e aplicações completas, conectando interfaces modernas, APIs e bancos de dados.
+        </p>
+
+        <div class="hero__actions">
+          <a class="button button--primary" href="#projetos">
+            Ver projetos
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button button--secondary" href="https://www.linkedin.com/in/gui-andrade-alves/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </div>
+
+        <ul class="hero__highlights" aria-label="Resumo profissional">
+          <li>
+            <strong>Full Stack</strong>
+            <span>Front-end e back-end</span>
+          </li>
+          <li>
+            <strong>Senac</strong>
+            <span>Desenvolvimento de Sistemas</span>
+          </li>
+          <li>
+            <strong>Projetos</strong>
+            <span>Aplicações práticas</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="profile-card">
+          <div class="profile-card__glow" aria-hidden="true"></div>
+          <div class="profile-card__image-wrap">
+            <img
+              class="profile-card__image"
+              src="./imagens/fotoperfil.jpeg"
+              alt="Foto de Guilherme Andrade Alves"
+              width="800"
+              height="800"
+            >
+          </div>
+          <div class="profile-card__footer">
+            <div>
+              <span class="profile-card__label">Foco atual</span>
+              <strong>Desenvolvimento Web</strong>
+            </div>
+            <span class="profile-card__code" aria-hidden="true">&lt;/&gt;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--surface" id="sobre" aria-labelledby="sobre-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Perfil profissional</p>
+          <h2 id="sobre-title">Sobre mim</h2>
+          <p>Conheça minha formação, objetivos e principais competências.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card reveal">
+            <p>
+              Sou desenvolvedor em formação, com foco em desenvolvimento web Full Stack e conhecimentos em JavaScript, React, Node.js, APIs REST e Banco de Dados.
+            </p>
+            <p>
+              Tenho experiência prática no desenvolvimento de aplicações web, criação de interfaces responsivas, construção de APIs, operações CRUD e manipulação de bancos de dados.
+            </p>
+            <p>
+              Atualmente curso Técnico em Desenvolvimento de Sistemas no Senac, onde venho fortalecendo meus conhecimentos em lógica de programação, desenvolvimento de software, banco de dados e boas práticas de programação.
+            </p>
+            <p>
+              Busco uma oportunidade como Desenvolvedor Júnior ou Estagiário em Desenvolvimento de Software, na qual eu possa aplicar meus conhecimentos, participar de projetos reais e evoluir tecnicamente junto à equipe.
+            </p>
+          </article>
+
+          <aside class="skills-card reveal" aria-labelledby="skills-title">
+            <div class="skills-card__header">
+              <span class="skills-card__icon" aria-hidden="true">{ }</span>
+              <div>
+                <p class="eyebrow">Tecnologias</p>
+                <h3 id="skills-title">Principais conhecimentos</h3>
+              </div>
+            </div>
+
+            <ul class="skills-list">
+              <li><span>JavaScript</span><small>HTML5 e CSS3</small></li>
+              <li><span>React</span><small>Interfaces componentizadas</small></li>
+              <li><span>Python</span><small>Lógica e desenvolvimento</small></li>
+              <li><span>Node.js</span><small>APIs REST</small></li>
+              <li><span>Banco de Dados</span><small>CRUD e integração</small></li>
+              <li><span>Git e GitHub</span><small>Versionamento de código</small></li>
+              <li><span>Responsividade</span><small>Desktop, tablet e mobile</small></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos" aria-labelledby="projetos-title">
+      <div class="section-heading section-heading--row reveal">
+        <div>
+          <p class="eyebrow">Trabalhos selecionados</p>
+          <h2 id="projetos-title">Meus projetos</h2>
+          <p>Projetos desenvolvidos para praticar interfaces, lógica, frameworks e integração com dados.</p>
+        </div>
+        <a class="text-link" href="https://github.com/Gu1Andrade" target="_blank" rel="noopener noreferrer">
+          Ver GitHub completo <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card project-card--featured reveal">
+          <a class="project-card__image-link" href="https://dev-store-taupe.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto Dev Store">
+            <img class="project-card__image" src="./imagens/DEV-IMG.jpeg" alt="Prévia do projeto Dev Store" loading="lazy" width="360" height="360">
+            <span class="project-card__overlay">Ver projeto ↗</span>
+          </a>
+          <div class="project-card__content">
+            <div class="project-card__topline">
+              <span class="project-card__number">01</span>
+              <span class="project-card__status">Em evolução</span>
+            </div>
+            <h3>Dev Store</h3>
+            <p>E-commerce voltado ao público dev, criado com foco em design moderno, componentização e navegação fluida.</p>
+            <ul class="tech-list" aria-label="Tecnologias do projeto">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-card__image-link" href="https://github.com/Gu1Andrade/Alura_Space" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto Alura Space">
+            <img class="project-card__image" src="./imagens/Alura_space.jpg" alt="Prévia do projeto Alura Space" loading="lazy" width="1920" height="1280">
+            <span class="project-card__overlay">Ver código ↗</span>
+          </a>
+          <div class="project-card__content">
+            <div class="project-card__topline"><span class="project-card__number">02</span></div>
+            <h3>Alura Space</h3>
+            <p>Galeria de imagens com persistência de dados, templates, views, modelos e painel administrativo.</p>
+            <ul class="tech-list" aria-label="Tecnologias do projeto">
+              <li>Python</li>
+              <li>Django</li>
+              <li>Banco de Dados</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-card__image-link" href="https://github.com/Gu1Andrade/Lista_de_tarefas" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto Lista de Tarefas">
+            <img class="project-card__image" src="./imagens/todolist.jpeg" alt="Prévia do projeto Lista de Tarefas" loading="lazy" width="612" height="612">
+            <span class="project-card__overlay">Ver código ↗</span>
+          </a>
+          <div class="project-card__content">
+            <div class="project-card__topline"><span class="project-card__number">03</span></div>
+            <h3>Lista de Tarefas</h3>
+            <p>Aplicação completa de tarefas com operações de criar, ler, atualizar e excluir dados.</p>
+            <ul class="tech-list" aria-label="Tecnologias do projeto">
+              <li>Django</li>
+              <li>CRUD</li>
+              <li>CBVs</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-card__image-link" href="https://projeto-alura-kappa-seven.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto Alura Plus">
+            <img class="project-card__image" src="./imagens/Alura_plus.png" alt="Prévia do projeto Alura Plus" loading="lazy" width="1280" height="597">
+            <span class="project-card__overlay">Ver projeto ↗</span>
+          </a>
+          <div class="project-card__content">
+            <div class="project-card__topline"><span class="project-card__number">04</span></div>
+            <h3>Alura Plus</h3>
+            <p>Landing page responsiva para divulgação de uma plataforma de streaming, com estrutura semântica.</p>
+            <ul class="tech-list" aria-label="Tecnologias do projeto">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Responsivo</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-card__image-link" href="https://github.com/Gu1Andrade/Alura-Books" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto Alura Books">
+            <img class="project-card__image" src="./imagens/alura_books.png" alt="Prévia do projeto Alura Books" loading="lazy" width="1280" height="640">
+            <span class="project-card__overlay">Ver código ↗</span>
+          </a>
+          <div class="project-card__content">
+            <div class="project-card__topline"><span class="project-card__number">05</span></div>
+            <h3>Alura Books</h3>
+            <p>Plataforma de livros com filtragem e manipulação dinâmica de conteúdo por meio do DOM.</p>
+            <ul class="tech-list" aria-label="Tecnologias do projeto">
+              <li>JavaScript</li>
+              <li>DOM</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-card__image-link" href="https://github.com/Gu1Andrade/Apple-Watch-" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto Apple Watch">
+            <img class="project-card__image" src="./imagens/Apple Watch Series 6 (I did it!) on Behance.jpeg" alt="Prévia do projeto Apple Watch" loading="lazy" width="736" height="920">
+            <span class="project-card__overlay">Ver código ↗</span>
+          </a>
+          <div class="project-card__content">
+            <div class="project-card__topline"><span class="project-card__number">06</span></div>
+            <h3>Apple Watch</h3>
+            <p>Página interativa de produto com alteração dinâmica de cores, pulseiras e visualizações.</p>
+            <ul class="tech-list" aria-label="Tecnologias do projeto">
+              <li>JavaScript</li>
+              <li>Estado</li>
+              <li>Interatividade</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-card__image-link" href="https://github.com/Gu1Andrade/Cardapio-Digital" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto Cardápio Online">
+            <img class="project-card__image" src="./imagens/restaurante.jpeg" alt="Prévia do projeto Cardápio Online" loading="lazy" width="736" height="1104">
+            <span class="project-card__overlay">Ver código ↗</span>
+          </a>
+          <div class="project-card__content">
+            <div class="project-card__topline"><span class="project-card__number">07</span></div>
+            <h3>Cardápio Online</h3>
+            <p>Cardápio digital responsivo com apresentação dinâmica de itens, categorias e preços.</p>
+            <ul class="tech-list" aria-label="Tecnologias do projeto">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>Componentes</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--surface" id="contato" aria-labelledby="contato-title">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Vamos conversar</p>
+          <h2 id="contato-title">Tenho interesse em novos desafios.</h2>
+          <p>
+            Estou em busca de uma oportunidade como Desenvolvedor Júnior ou Estagiário em Desenvolvimento de Software.
+          </p>
+
+          <div class="contact-links">
+            <a href="https://github.com/Gu1Andrade" target="_blank" rel="noopener noreferrer">
+              <img src="./icons/github.png" alt="" width="22" height="22">
+              <span><small>GitHub</small>github.com/Gu1Andrade</span>
+              <strong aria-hidden="true">↗</strong>
+            </a>
+            <a href="https://www.linkedin.com/in/gui-andrade-alves/" target="_blank" rel="noopener noreferrer">
+              <img src="./icons/linkedin.png" alt="" width="22" height="22">
+              <span><small>LinkedIn</small>gui-andrade-alves</span>
+              <strong aria-hidden="true">↗</strong>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="formulario">
+          <div class="form-heading">
+            <span>Mensagem rápida</span>
+            <strong>WhatsApp</strong>
+          </div>
+
+          <div class="form-group">
+            <label for="nome">Seu nome</label>
+            <input id="nome" name="nome" type="text" placeholder="Como posso chamar você?" autocomplete="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte um pouco sobre a oportunidade ou projeto." required></textarea>
+          </div>
+
+          <button class="button button--primary button--full" type="submit">
+            Enviar pelo WhatsApp <span aria-hidden="true">↗</span>
+          </button>
+          <p class="form-note">Ao enviar, uma conversa será aberta no WhatsApp.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__content">
+      <p>© <span id="ano-atual"></span> Guilherme Andrade Alves.</p>
+      <a href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
